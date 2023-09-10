@@ -48,6 +48,15 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
     {
+        name: "Testextension",
+        extensionId: "testExtension",
+        iconURL: musicIconURL,
+        insetIconURL: musicInsetIconURL,
+        description: "Custom Scratch Extension",
+        featured: true,
+        disabled: false
+    },
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Music"
